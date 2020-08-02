@@ -7,12 +7,14 @@ Hooks.on('ready', () => {
             $('#controls').hide();
             $('#players').hide();
             $('#hotbar').hide();
+            $('#camera-view').hide();
         } else {
             $('#sidebar').show();
             $('#navigation').show();
             $('#controls').show();
             $('#players').show();
             $('#hotbar').show();
+            $('#camera-view').show();
         }
     });
 });
